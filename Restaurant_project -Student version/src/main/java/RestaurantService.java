@@ -16,6 +16,7 @@ public class RestaurantService {
     //This method displays the total order value when all items are selected
     public List<Restaurant> orderValue(){
         Restaurant restaurant = new Restaurant("any", "adfg", LocalTime.parse("10.25.40"), LocalTime.parse("12.50.24") );
+        restaurant.getMenu();
 
 
     }
